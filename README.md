@@ -28,7 +28,7 @@ An example of how to use this role in your own playbooks
 
     - hosts: servers
       roles:
-         - freiraumweb.ntp
+         - FREIRAUMWEB.ntp
 
 License
 -------
