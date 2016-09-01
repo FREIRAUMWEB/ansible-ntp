@@ -34,3 +34,8 @@ License
 -------
 
 MIT
+
+Author Information
+------------------
+
+This role was created in 2016 by Andreas Kleindiek @ FREIRAUMWEB (http://www.freiraumweb.de)
