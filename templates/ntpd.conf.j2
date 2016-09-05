@@ -1,6 +1,6 @@
 # {{ ansible_managed }}
 
-driftfile {{ driftfile }}
+driftfile {{ ntp_driftfile }}
 
 # Enable this if you want statistics to be logged.
 statsdir /var/log/ntpstats/
@@ -14,6 +14,6 @@ filegen clockstats file clockstats type day enable
 server {{ item }} iburst
 {% endfor %}
 
-{% for item in restricts %}
+{% for item in ntp_restricts %}
 restrict {{ item }}
 {% endfor %}
